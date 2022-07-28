@@ -15,8 +15,6 @@ const about = {
     },
   }
   const projects = [
-    // projects can be added and removed
-    // if there are no projects, Projects section won't show up
     {
       name: 'Müssbags',
       description:

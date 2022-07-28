@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <a href={homepage} target="_blank" rel="noreferrer">
-        {title}
+        {title}.
       </a>
     </div>
   );

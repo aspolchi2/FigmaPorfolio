@@ -1,15 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import './variables.scss';
+@import "./variables.scss";
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto";
-    text-decoration: none;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.60);
 }
-body{
-    background-color: $background;
+body {
+  background-color: $background;
+}
+a {
+  color: $secondary;
+  transition: all 0.35s;
+  &:hover {
+    transform: scale(1.5);
+  }
 }
