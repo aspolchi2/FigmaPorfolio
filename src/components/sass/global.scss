@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import './variables.scss';
+
 
 *{
     margin: 0;
@@ -6,5 +8,8 @@
     box-sizing: border-box;
     font-family: "Roboto";
     text-decoration: none;
-    color: black;
+    
+}
+body{
+    background-color: $background;
 }

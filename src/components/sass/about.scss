@@ -1,0 +1,33 @@
+@import './variables.scss';
+
+.about{
+    width: 65%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    h1{
+        font-size: 4.1rem;
+        span{
+            color: $primary;
+        }
+    }
+    h2{
+        font-size: 3.3rem;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    .socials{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        a{
+            color: $secondary;
+        }
+    }
+}
