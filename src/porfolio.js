@@ -1,6 +1,6 @@
 const header = {
   homepage: "https://www.asp.ar",
-  title: "ASPolchi",
+  title: "ASP",
 };
 
 const about = {

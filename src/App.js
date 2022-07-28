@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/header/Header';
-
+import About from "./components/about/About";
+import Header from "./components/header/Header";
+import "./components/sass/global.scss";
 function App() {
   return (
-   <div>
-    <Header/>
-
-   </div>
+    <div>
+      <Header />
+      <About />
+    </div>
   );
 }
 
