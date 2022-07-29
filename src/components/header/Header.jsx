@@ -1,5 +1,4 @@
 import React from "react";
-import { Slide, Bounce } from "react-awesome-reveal";
 import { header } from "../../porfolio";
 import "../sass/header.scss";
 

@@ -1,5 +1,3 @@
-import Paper from "@mui/material/Paper";
-import Stack from "@mui/material/Stack";
 import React from "react";
 import { skills } from "../../porfolio";
 import "../sass/skills.scss";

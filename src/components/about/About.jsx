@@ -1,5 +1,4 @@
 import { GitHub, LinkedIn } from "@mui/icons-material";
-import { Button } from "@mui/material";
 import React from "react";
 import { Slide } from "react-awesome-reveal";
 import { about } from "../../porfolio";
