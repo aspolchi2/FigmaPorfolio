@@ -1,9 +1,9 @@
 .projectDiv {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
   .title{
     font-size: 3rem;
     text-transform: uppercase;

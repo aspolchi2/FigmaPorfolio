@@ -52,7 +52,7 @@ const about = {
         'Personal project: A todo list to practice the use of React hooks ',
       stack: ['CSS', 'Material UI', 'React'],
       sourceCode: 'https://github.com/aspolchi2/dope',
-      livePreview: 'https://www.todo.asp.ar/',
+      livePreview: 'https://todo.asp.ar/',
     },
     {
       name: 'Müssbags HTML, CSS',
