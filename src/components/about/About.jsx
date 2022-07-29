@@ -1,6 +1,7 @@
 import { GitHub, LinkedIn } from "@mui/icons-material";
 import { Button } from "@mui/material";
 import React from "react";
+import { Slide } from "react-awesome-reveal";
 import { about } from "../../porfolio";
 import "../sass/about.scss";
 
@@ -9,11 +10,13 @@ const About = () => {
 
   return (
     <div className="about">
+    <Slide cascade triggerOnce>
       <h1>
         Hi! I'm <span>{name}</span>
       </h1>
       <h2>{role}</h2>
       <p>{description}</p>
+      </Slide>
       <div className="socials">
         <a href={resume} rel="noreferrer" target="_blank">
           My Resume

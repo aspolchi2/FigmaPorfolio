@@ -64,8 +64,7 @@ const about = {
     },
   ]
   const skills = [
-    // skills can be added or removed
-    // if there are no skills, Skills section won't show up
+    
     'HTML',
     'CSS',
     'JavaScript',
@@ -77,8 +76,8 @@ const about = {
   
   ]
   const contact = {
-    // email is optional - if left empty Contact section won't show up
     email: 'aspolchi@gmail.com',
+    whatsapp: '2914277102'
   }
   
   export { header, about, projects, skills, contact }
