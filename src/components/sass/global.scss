@@ -5,9 +5,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto";
+  font-family: $font;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.60);
+  color: $fontColor;
+  scroll-behavior: smooth;
 }
 body {
   background-color: $background;
@@ -17,6 +18,6 @@ a {
   color: $secondary;
   transition: all 0.35s;
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
   }
 }

@@ -5,28 +5,31 @@ import { about } from "../../porfolio";
 import "../sass/about.scss";
 
 const About = () => {
-  const { name, role, description, resume, social } = about;
+  const {
+    name,
+    role,
+    description,
+    description2,
+    photo,
+    resume,
+    social,
+  } = about;
 
   return (
-    <div className="about">
-    <Slide cascade triggerOnce>
-      <h1>
-        Hi! I'm <span>{name}</span>
-      </h1>
-      <h2>{role}</h2>
-      <p>{description}</p>
-      </Slide>
-      <div className="socials">
-        <a href={resume} rel="noreferrer" target="_blank">
-          My Resume
-        </a>
-        <a href={social.github} rel="noreferrer" target="_blank">
-          <GitHub />{" "}
-        </a>
-        <a href={social.linkedin} rel="noreferrer" target="_blank">
-          {" "}
-          <LinkedIn />
-        </a>
+    <div className="aboutSection" id="about">
+      <div className="aboutSection__left">
+        <div className="aboutSection__left__nameAndRole">
+          <p>
+            Hi I'm {name} a {role}
+          </p>
+        </div>
+        <div className="aboutSection__left__description">
+          <p>{description}</p>
+          <p>{description2}</p>
+        </div>
+      </div>
+      <div className="aboutSection__right">
+        <img src={photo} alt={name}></img>
       </div>
     </div>
   );

@@ -3,16 +3,20 @@ import { skills } from "../../porfolio";
 import "../sass/skills.scss";
 
 const Skills = () => {
+  const { lang, programs } = skills;
   return (
     <div className="skillSection">
-    <h2>Some skills</h2>
-      <div className="skills">
-        <div className="skillContainer">
-          {skills.map((skill, i) => (
-            <div className="skillBox" key={i}>{skill}</div>
-          ))}
+      <div className="skillSection__box">
+        <div className="skillSection__box__inner">
+          <p className="skillSection__box__inner__title">Main Programs: </p>
+          <p className="skillSection__box__inner__content">{programs}</p>
+        </div>
+        <div className="skillSection__box__inner">
+          <p className="skillSection__box__inner__title">Main Skills: </p>
+          <p className="skillSection__box__inner__content">{lang}</p>
         </div>
       </div>
+      <div className="divisor"></div>
     </div>
   );
 };

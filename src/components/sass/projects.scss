@@ -1,50 +1,69 @@
+@import "./variables.scss";
 .projectDiv {
+  width: $width;
+  margin: auto;
+
+}
+.projectSection__box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-  .title{
-    font-size: 3rem;
-    text-transform: uppercase;
-  }
-
-  .projectsContainer {
-    width: 60%;
-    margin: auto;
+  &__inner {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    .projectCard {
-      width: 300px;
-      height: 300px;
-      text-align: center;
-      border-radius: 10px;
-      h2 {
-        padding: 15px;
-        text-transform: uppercase;
+    justify-content: space-around;
+    width: $width;
+    height: 50.69667738478028vh;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      width: 18.541666666666668vw;
+      height: 364.68px;
+      justify-content: space-between;
+      &__title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 121.5%;
+        letter-spacing: -0.03em;
       }
-      .desc {
-        height: 40%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 1rem;
-        font-size: 1.1rem;
+      &__description,
+      &__stack {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 121.5%;
+        letter-spacing: -0.03em;
       }
-      .paragraph {
+      &__stack {
         display: flex;
-        gap: 10px;
-        justify-content: center;
-        margin: 1rem 0 1.8rem 0;
+        gap: 1rem;
       }
-      .links {
+      &__links {
         display: flex;
-        gap: 3rem;
-        justify-content: center;
+        gap: 8rem;
+        a {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 121.5%;
+          letter-spacing: -0.03em;
+          text-decoration-line: underline;
+          color: $primary;
+
+        }
       }
     }
+    &__img {
+      &__image {
+        width: 640px;
+        height: 364.68px;
+        background-color: aqua;
+      }
+    }
+  }
+  .divisor {
+    width: $width;
+    height: 2px;
+    background-color: $fontColor;
+    margin-bottom: 8rem;
   }
 }

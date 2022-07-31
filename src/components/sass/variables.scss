@@ -1,6 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap');
+@font-face {
+    font-family: "DMsans";
+    src: url(../../font/DMSans-Regular.woff);
+}
 
-$font: "Roboto", sans-serif;
-$background: #fafafa;
+$font: "Montserrat", sans-serif;
+$background: #E5E5E5;
 $primary: #f4511e ;
-$secondary: #dd2c00;
+$secondary: #2429AF;
+$fontColor: #181717;
+$fontSecondary: #606060;
+$width: 58.333333333333336vw;
+$aboutHeight: 63.236870310825296vh;
+$marginBtwn: 23.90139335476956vh;
+

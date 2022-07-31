@@ -2,16 +2,17 @@ import React from "react";
 import Projects from "../components/projects/Projects";
 import { projects } from "../porfolio";
 import "../components/sass/projects.scss";
-import { Fade, Slide } from "react-awesome-reveal";
+import {Slide } from "react-awesome-reveal";
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 const ProjectsContainer = () => {
   return (
-    <div className="projectDiv">
-      <h2 className="title">My Projects</h2>
+    <div id="projects" className="projectDiv">
+    <ArrowDownwardIcon fontSize="large" sx={{marginBottom: "8rem"}}/>
       <div className="projectsContainer">
         <Slide direction="up" triggerOnce>
-          {projects.map((project, i) => (
-            <Projects {...project} key={i} />
+          {projects.map((project) => (
+            <Projects {...project} key={project.id} />
           ))}
         </Slide>
       </div>

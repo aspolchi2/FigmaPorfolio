@@ -1,33 +1,48 @@
-@import './variables.scss';
+@import "./variables.scss";
 
-.about{
-    width: 65%;
-    height: 100vh;
-    margin: auto;
+.aboutSection {
+  width: $width;
+  height: $aboutHeight;
+  margin: 23.90139335476956vh auto auto;
+  display: flex;
+  justify-content: space-between;
+  &__left {
+    width: 27.864583333333332vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 2rem;
-    h1{
-        font-size: 4.1rem;
-        span{
-            color: $primary;
-        }
+    gap: 3.429796355841372vh;
+
+    &__nameAndRole {
+      width: 25vw;
+      height: 21.329046087888532vh;
+      p {
+
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 97.2%;
+        letter-spacing: -0.03em;
+      }
     }
-    h2{
-        font-size: 3.3rem;
+    &__description {
+      width: 29.947916666666668vw;
+      height: 39.27789934354486vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      p {
+
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 117%;
+        letter-spacing: -0.03em;
+        color: $fontSecondary;
+      }
     }
-    p{
-        font-size: 1.3rem;
+  }
+  &__right {
+    overflow: hidden;
+    img {
+      width: 21.927083333333332vw;
     }
-    .socials{
-        width: 40%;
-        display: flex;
-        justify-content: space-evenly;
-        a{
-            color: $secondary;
-        }
-    }
+  }
 }
