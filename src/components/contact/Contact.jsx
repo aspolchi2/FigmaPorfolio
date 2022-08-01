@@ -10,7 +10,7 @@ const Contact = () => {
     <div className="contactMe" id="contact">
       <div className="contactMe__text">
         <p>
-          I am thrilled to answer any questions{" "}
+          I am thrilled to answer to any questions{" "}
           <ArrowForwardIcon fontSize="large" />
         </p>
       </div>
