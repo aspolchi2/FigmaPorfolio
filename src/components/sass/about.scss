@@ -46,6 +46,7 @@
     }
   }
 }
+//notebook
 @media screen and (max-width: 1400px) {
   .aboutSection{
     &__left {
@@ -85,6 +86,8 @@
   
   
 }
+
+//cellphone
 @media screen and (max-width: 1000px) {
   .aboutSection{
     display: flex;
@@ -114,12 +117,13 @@
         flex-direction: column;
         justify-content: space-around;
         p {
-  
+          width: 400px;
           font-weight: 400;
           font-size: 18px;
           line-height: 117%;
           letter-spacing: -0.03em;
           color: $fontSecondary;
+          
         }
       }
     }
