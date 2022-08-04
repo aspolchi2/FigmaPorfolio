@@ -7,7 +7,7 @@ const about = {
   name: "Agustín",
   role: "Frontend Developer",
   description:
-    "My work is mainly focused on web solutions, elegance and easy to read code. I like exploring new tech to keep my journy and my knowledge growing ",
+    "My work is mainly focused on web solutions, elegance and easy to read code. I like exploring new tech to keep my journey and my knowledge growing ",
   description2:
     "Now I'm Fullstack developer stundent in Argentina -- currently seeking for job oportunities",
   resume:

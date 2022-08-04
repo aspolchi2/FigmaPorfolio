@@ -20,7 +20,7 @@ const About = () => {
       <div className="aboutSection__left">
         <div className="aboutSection__left__nameAndRole">
           <p>
-            Hi I'm {name} a {role}
+            Hi I'm {name}, a {role}
           </p>
         </div>
         <div className="aboutSection__left__description">
