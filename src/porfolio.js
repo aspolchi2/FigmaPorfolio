@@ -13,7 +13,7 @@ const about = {
   resume:
     "https://drive.google.com/file/d/14x9vvDVeGIZYU9J385qnyuwiT2bS43lp/view?usp=sharing",
   photo:
-    "https://firebasestorage.googleapis.com/v0/b/portfolio-5fb56.appspot.com/o/perfil%20(1).jpg?alt=media&token=48f53f37-262a-4e5d-b301-8b8593023910",
+    "https://i.im.ge/2022/08/23/OiNtG8.perfil.png",
   social: {
     linkedin: "https://www.linkedin.com/in/agustin-somoza-polchi/",
     github: "https://github.com/aspolchi2",
