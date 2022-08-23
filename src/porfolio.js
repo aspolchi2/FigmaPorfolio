@@ -29,7 +29,7 @@ const projects = [
     sourceCode: "https://github.com/aspolchi2/MB-AgustinSomoza",
     livePreview: "https://muss.asp.ar/",
     gif:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-5fb56.appspot.com/o/mussReact.gif?alt=media&token=d7b04e40-5d3a-46a7-870e-c94cc5567582",
+      "https://live.staticflickr.com/65535/52305035183_4ec7af07ff_b.jpg",
   },
   {
     id: "02",
@@ -40,7 +40,7 @@ const projects = [
     sourceCode: "https://github.com/aspolchi2/pokebattle",
     livePreview: "https://battle.asp.ar/",
     gif:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-5fb56.appspot.com/o/battle.gif?alt=media&token=ec843b00-a713-47fb-b4a1-81c94f09c140",
+      "https://i.imgur.com/rPzJHyW.gif",
   },
   {
     id: "03",
@@ -51,7 +51,7 @@ const projects = [
     sourceCode: "https://github.com/aspolchi2/reverse",
     livePreview: "https://luzazul.asp.ar/",
     gif:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-5fb56.appspot.com/o/palindromo.gif?alt=media&token=6c55550c-73f5-4057-ac44-e0c99420fc60 ",
+      "https://i.imgur.com/6pgMLZQ.gif",
   },
   {
     id: "04",
@@ -60,7 +60,7 @@ const projects = [
     stack: ["SASS", "Bootstrap", "HTML5"],
     livePreview: "http://lostilosmh.com.ar/",
     gif:
-      " https://firebasestorage.googleapis.com/v0/b/portfolio-5fb56.appspot.com/o/lostilos.gif?alt=media&token=d1bf6791-2dda-42e7-a811-eacad7c98a1c",
+      " https://lh3.googleusercontent.com/ZCs1ADvFP8PtNfDHbayT9tHViLygrsTDWH09t7lpd_NWSvFUzzr97r72HZGn_rLCXA4Kavau4-7q2gIQA0h3YlXNmkS7uLypInbLmuD4blKb0w3LozEcGnDtzLX91-6_TWd-SzTDzJi5efAJqIH6qeXh5rRAM-VKCOdwdfgguuz3lbYBIkPWvTnMaFQT2nP_PKqOxIYvlYDAMp6xtzDh-kqib7poR1Cm5DzKDvGie0sSsoO2gQvJjOdAi9fVM4WilxuiIP0q4Ie5-aSUwmWtlmi_to_hFpECA20lLT0WreqsM8uFMWVznd3vwNHjKKqOQDjwk9tvw8z_QSrLVDgXrwlVpRy55rdG3YodmCG33wamb3krgwVSNVcnblFAtDzLJy07XLkP0W0ADzScHzboZ9rsqTzKK_J5FhQvquHe3WEhbj9MekpLuhExS1tICztkoOQlg5H10Vv2qW83mm1KQm-icyo4OWVV8mpn4PyKORs8dI9LlVJnscYvAUP7cDmOK3djqAANtdS6HrijvOa3M-HxmnotfoP0hYpttPLcn2R_KtOwZ20WjvMyMnQN9V4EuZ1UGq59g3AEvVInvXqomTzStYUTNZkxfQzuwcen125boBpZIg2w03GgHZl5ZI29EWiQO-gqIvoIzpd9xvSaOtDswOmyWwNj53qhjk1iOSiL6ngahTdfRBYuG_Ppj2f9zZKPFJ47hkv06lZkBMGP7sZlwvydFOs8a0PEKk1rnWmbTkm6WfkbxQ491BordGY=w308-h173-no?authuser=0",
   },
   {
     id: "05",
@@ -71,7 +71,7 @@ const projects = [
     sourceCode: "https://github.com/aspolchi2/dope",
     livePreview: "https://todo.asp.ar/",
     gif:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-5fb56.appspot.com/o/todo.gif?alt=media&token=8f871fc5-a5ba-4e91-a11e-b237540486f2 ",
+      "https://i.imgur.com/ok0dDtT.gif ",
   },
   {
     id: "06",
@@ -82,7 +82,7 @@ const projects = [
     sourceCode: "https://github.com/aspolchi2/mussbags",
     livePreview: "https://aspolchi2.github.io/mussbags/",
     gif:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-5fb56.appspot.com/o/mussCSs.gif?alt=media&token=6cd8f0ac-8a72-4d01-bc6d-231bbd4fd27c ",
+      "https://live.staticflickr.com/65535/52304569866_5d550333a3_b.jpg ",
   },
 ];
 const skills = {
