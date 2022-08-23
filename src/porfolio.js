@@ -29,7 +29,7 @@ const projects = [
     sourceCode: "https://github.com/aspolchi2/MB-AgustinSomoza",
     livePreview: "https://muss.asp.ar/",
     gif:
-      "https://live.staticflickr.com/65535/52305035183_4ec7af07ff_b.jpg",
+      "https://i.im.ge/2022/08/23/OiNLGa.mussReact.gif",
   },
   {
     id: "02",
@@ -60,7 +60,7 @@ const projects = [
     stack: ["SASS", "Bootstrap", "HTML5"],
     livePreview: "http://lostilosmh.com.ar/",
     gif:
-      " https://lh3.googleusercontent.com/ZCs1ADvFP8PtNfDHbayT9tHViLygrsTDWH09t7lpd_NWSvFUzzr97r72HZGn_rLCXA4Kavau4-7q2gIQA0h3YlXNmkS7uLypInbLmuD4blKb0w3LozEcGnDtzLX91-6_TWd-SzTDzJi5efAJqIH6qeXh5rRAM-VKCOdwdfgguuz3lbYBIkPWvTnMaFQT2nP_PKqOxIYvlYDAMp6xtzDh-kqib7poR1Cm5DzKDvGie0sSsoO2gQvJjOdAi9fVM4WilxuiIP0q4Ie5-aSUwmWtlmi_to_hFpECA20lLT0WreqsM8uFMWVznd3vwNHjKKqOQDjwk9tvw8z_QSrLVDgXrwlVpRy55rdG3YodmCG33wamb3krgwVSNVcnblFAtDzLJy07XLkP0W0ADzScHzboZ9rsqTzKK_J5FhQvquHe3WEhbj9MekpLuhExS1tICztkoOQlg5H10Vv2qW83mm1KQm-icyo4OWVV8mpn4PyKORs8dI9LlVJnscYvAUP7cDmOK3djqAANtdS6HrijvOa3M-HxmnotfoP0hYpttPLcn2R_KtOwZ20WjvMyMnQN9V4EuZ1UGq59g3AEvVInvXqomTzStYUTNZkxfQzuwcen125boBpZIg2w03GgHZl5ZI29EWiQO-gqIvoIzpd9xvSaOtDswOmyWwNj53qhjk1iOSiL6ngahTdfRBYuG_Ppj2f9zZKPFJ47hkv06lZkBMGP7sZlwvydFOs8a0PEKk1rnWmbTkm6WfkbxQ491BordGY=w308-h173-no?authuser=0",
+      " https://i.im.ge/2022/08/23/OiNiAy.lostilos.gif",
   },
   {
     id: "05",
@@ -82,7 +82,7 @@ const projects = [
     sourceCode: "https://github.com/aspolchi2/mussbags",
     livePreview: "https://aspolchi2.github.io/mussbags/",
     gif:
-      "https://live.staticflickr.com/65535/52304569866_5d550333a3_b.jpg ",
+      "https://i.im.ge/2022/08/23/OiN0pS.mussCSs.gif",
   },
 ];
 const skills = {
