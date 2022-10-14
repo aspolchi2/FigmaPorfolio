@@ -1,3 +1,5 @@
+import yep from "./yep.png";
+
 const header = {
   homepage: "https://www.asp.ar",
   title: "ASP",
@@ -12,8 +14,7 @@ const about = {
     "Now I'm Fullstack developer stundent in Argentina -- currently seeking for job oportunities",
   resume:
     "https://drive.google.com/file/d/14x9vvDVeGIZYU9J385qnyuwiT2bS43lp/view?usp=sharing",
-  photo:
-    "https://i.ibb.co/TgG6Hzx/perfil-1.png",
+  photo: yep,
   social: {
     linkedin: "https://www.linkedin.com/in/agustin-somoza-polchi/",
     github: "https://github.com/aspolchi2",
@@ -28,8 +29,7 @@ const projects = [
     stack: ["CSS", "Bootstrap", "React", "Firebase"],
     sourceCode: "https://github.com/aspolchi2/MB-AgustinSomoza",
     livePreview: "https://muss.asp.ar/",
-    gif:
-      "https://i.im.ge/2022/08/23/OiNLGa.mussReact.gif",
+    gif: "https://i.im.ge/2022/08/23/OiNLGa.mussReact.gif",
   },
   {
     id: "02",
@@ -39,8 +39,7 @@ const projects = [
     stack: ["SASS", "Material IU", "React", "Pokeapi"],
     sourceCode: "https://github.com/aspolchi2/pokebattle",
     livePreview: "https://battle.asp.ar/",
-    gif:
-      "https://i.imgur.com/rPzJHyW.gif",
+    gif: "https://i.imgur.com/rPzJHyW.gif",
   },
   {
     id: "03",
@@ -50,8 +49,7 @@ const projects = [
     stack: ["SASS", "Material UI", "React"],
     sourceCode: "https://github.com/aspolchi2/reverse",
     livePreview: "https://luzazul.asp.ar/",
-    gif:
-      "https://i.imgur.com/6pgMLZQ.gif",
+    gif: "https://i.imgur.com/6pgMLZQ.gif",
   },
   {
     id: "04",
@@ -59,8 +57,7 @@ const projects = [
     description: "Freelance website: a cabin complex website ",
     stack: ["SASS", "Bootstrap", "HTML5"],
     livePreview: "http://lostilosmh.com.ar/",
-    gif:
-      " https://i.im.ge/2022/08/23/OiNiAy.lostilos.gif",
+    gif: " https://i.im.ge/2022/08/23/OiNiAy.lostilos.gif",
   },
   {
     id: "05",
@@ -70,8 +67,7 @@ const projects = [
     stack: ["CSS", "Material UI", "React"],
     sourceCode: "https://github.com/aspolchi2/dope",
     livePreview: "https://todo.asp.ar/",
-    gif:
-      "https://i.imgur.com/ok0dDtT.gif ",
+    gif: "https://i.imgur.com/ok0dDtT.gif ",
   },
   {
     id: "06",
@@ -81,8 +77,7 @@ const projects = [
     stack: ["SASS", "Bootstrap", "HTML5"],
     sourceCode: "https://github.com/aspolchi2/mussbags",
     livePreview: "https://aspolchi2.github.io/mussbags/",
-    gif:
-      "https://i.im.ge/2022/08/23/OiN0pS.mussCSs.gif",
+    gif: "https://i.im.ge/2022/08/23/OiN0pS.mussCSs.gif",
   },
 ];
 const skills = {
